@@ -1,5 +1,5 @@
 #
-# Octave Dockerfile
+# R Dockerfile
 #
 # https://github.com/mixxen/dockerfile
 #
