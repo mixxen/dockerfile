@@ -1,5 +1,5 @@
 #
-# Octave Dockerfile
+# Julia Dockerfile
 #
 # https://github.com/mixxen/dockerfile
 #
