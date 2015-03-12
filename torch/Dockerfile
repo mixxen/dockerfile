@@ -8,7 +8,7 @@
 FROM ubuntu:14.04
 
 RUN apt-get -y update
-RUN apt-get -y install curl vim bash git ipython
+RUN apt-get -y install curl git
 RUN rm -rf /var/lib/apt/lists/*
 RUN apt-get autoremove -y
 
