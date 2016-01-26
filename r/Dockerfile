@@ -18,8 +18,7 @@ RUN \
   apt-get install -y libcurl4-openssl-dev && \
   rm -rf /var/lib/apt/lists/*
 
-RUN R -e "install.packages('ggplot2', repos = 'http://cran.rstudio.com/')"
-RUN R -e "install.packages('plotly', repos = 'http://cran.rstudio.com/')"
+RUN R -e "install.packages('devtools', repos = 'http://cran.rstudio.com/')"
 
 # Define working directory.
 WORKDIR /workspace
