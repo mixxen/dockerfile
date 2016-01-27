@@ -12,7 +12,7 @@ RUN apt-get -y install curl git
 RUN rm -rf /var/lib/apt/lists/*
 RUN apt-get autoremove -y
 
-RUN curl -sk https://raw.githubusercontent.com/mixxen/ezinstall/master/install-deps | bash
+RUN curl -s https://raw.githubusercontent.com/torch/ezinstall/master/install-deps | bash
 RUN git clone https://github.com/torch/distro.git /opt/torch --recursive
 RUN cd /opt/torch ; /opt/torch/install.sh
 
